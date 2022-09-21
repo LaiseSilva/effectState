@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    //
+    @import "./vars.scss";
+
+
+
+    //pages
+    @import "./pages/SpaceBackground/index.scss";
+
+
+    //Componentes
+    @import "./components/SpacebackgroundLogin/indexInput.scss";
+    @import "./components/SpacebackgroundLogin/indexLogin.scss";
+    @import "./components/SpacebackgroundLogin/btnInput.scss";
+ 
+}
+
